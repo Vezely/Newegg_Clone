@@ -1,0 +1,251 @@
+.nosMagasins_container {
+	margin: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: var(--CouleurSurvol);
+}
+.infoMagasin {
+	width: 310px;
+	height: 450px;
+	background-image: url('../public//images/design/imgHeader/i4.jpg');
+	padding: 20px;
+	color: #ffffff;
+}
+
+.infoMagasin h3 {
+	font-size: 1.6rem;
+	font-weight: 900;
+	margin: 0;
+}
+.infoMagasin p {
+	margin: 15px 0 40px 0;
+}
+.infoMagasin a {
+	transition: all 0.2s ease-in-out;
+}
+.infoMagasin a:hover {
+	transform: scale(1.05);
+	transition: all 0.2s ease-in-out;
+}
+.actualiser h4 {
+	margin: 0;
+	font-size: 0.6rem;
+}
+.actualiser svg {
+	width: 20px;
+	fill: var(--CouleurFond);
+}
+.actualiser {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1rem;
+	padding: 5px;
+	gap: 5px;
+	background-color: var(--CouleurAccent);
+	color: var(--CouleurFond);
+	text-decoration: none;
+}
+.boxHeadContent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	color: var(--CouleurNB);
+}
+.boxHead {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 250px;
+	box-shadow: var(--CouleurNB) 0px 5px 5px -4px;
+	align-items: center;
+	border-radius: 12px;
+	background-color: var(--CouleurFond);
+	padding: 8px 10px;
+	color: var(--CouleurNB);
+}
+.boxHead h2 {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.boxHead button {
+	border: none;
+	text-transform: uppercase;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	background-color: var(--CouleurBouton);
+}
+.boxHead > div:nth-child(1) {
+	display: flex;
+	justify-content: space-between;
+}
+.boxHead > div:nth-child(1) a {
+	text-decoration: none;
+	color: var(--CouleurAccent);
+	font-size: small;
+}
+.boxHead > div:nth-child(1) a span {
+	display: flex;
+}
+.boxHead svg {
+	width: 15px;
+	height: 15px;
+	fill: var(--CouleurLien);
+}
+.boxHead button:hover {
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
+}
+.boxHead button a {
+	text-decoration: none;
+	color: var(--CouleurFond);
+}
+.boxHead p a {
+	text-decoration: none;
+	color: var(--CouleurAccent);
+}
+.categoriInteressantContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	position: relative;
+}
+.categoriInteressantContainer .reduction {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+	text-decoration: none;
+	color: var(--CouleurNB);
+	background-color: var(--CouleurSurvolTransparant);
+	padding: 2px 10px;
+	font-size: 0.6em;
+}
+.categoriInteressantContainer a img {
+	width: 100px;
+	height: 90px;
+	border-radius: 8px;
+	margin: 5px;
+}
+.categoriInteressantContainer span {
+	position: relative;
+	background-color: var(--CouleurSurvol);
+	border-radius: 8px;
+}
+
+.categoriInteressantContainer .secondImg {
+	display: none;
+}
+.categoriInteressantContainer .premierImg {
+	height: 20px;
+}
+.categoriInteressantContainer .premierImg:hover ~ .secondImg {
+	display: block;
+}
+.categoriInteressantContainer .secondImg:hover {
+	display: block;
+}
+.categoriInteressantContainer .secondImg {
+	text-decoration: none;
+	box-shadow: var(--CouleurNB) 0px 5px 5px -4px;
+	border-radius: 7px;
+	color: var(--CouleurNB);
+	background-color: var(--CouleurFond);
+	transition: all 0.4s;
+	transform: scale(1.5);
+	z-index: 3;
+	position: absolute;
+	top: 0%;
+	left: 0;
+}
+.categoriInteressantContainer .secondImg div {
+	margin: 0 6px;
+}
+.categoriInteressantContainer .secondImg p {
+	margin: 0;
+	font-size: 0.5em;
+}
+.categoriInteressantContainer .secondImg p:hover {
+	text-decoration: underline;
+}
+.categoriInteressantContainer .secondImg p:hover::after {
+	content: 'Voir detail';
+	background-color: var(--CouleurSurvol);
+	padding: 3px;
+	position: relative;
+	top: auto;
+}
+.categoriInteressantContainer .secondImg h4 {
+	margin: 5px 0;
+	font-size: 0.75rem;
+}
+.etoiles span:nth-child(1) {
+	color: #feaa34;
+}
+.etoiles span:nth-child(2) {
+	font-size: 0.7em;
+}
+.boxHead > div:nth-child(1) {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 10px 0;
+}
+.boxHead > div:nth-child(1) > div a {
+	text-align: start;
+	color: var(--CouleurNB);
+}
+.boxHead > div:nth-child(1) > span {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+}
+.boxHead > div:nth-child(1) > span img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.boxHead > div:nth-child(1) h4 {
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+.raffraichir {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin: 20px 0;
+}
+.raffraichir a {
+	text-decoration: none;
+	color: var(--CouleurNB);
+	font-size: 0.7rem;
+	border: solid 2px var(--CouleurSurvol);
+	transition: all 0.2s ease-in-out;
+	border-radius: 1rem;
+	padding: 3px 12px;
+	font-weight: bold;
+}
+.raffraichir a:hover {
+	transform: scale(1.05);
+	transition: all 0.2s ease-in-out;
+}
+
+.raffraichir a:nth-child(2) {
+	background-color: var(--CouleurAccent);
+	color: var(--CouleurFond);
+}

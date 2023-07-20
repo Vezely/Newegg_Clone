@@ -1,0 +1,36 @@
+.container {
+	background-color: var(--CouleurFond);
+	padding: 0 15px 15px 15px;
+	margin: 70px 15px;
+	border: solid 2px var(--CouleurSurvol);
+	border-radius: 10px;
+}
+.container h4 {
+	font-size: 1.3rem;
+	font-weight: 900;
+	font-style: italic;
+	color: var(--CouleurH);
+}
+.box_container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 0;
+	gap: 10px;
+}
+.box {
+	text-decoration: none;
+	background-color: var(--CouleurSurvol);
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: var(--CouleurNB);
+}
+.box:nth-child(2n) {
+	background-color: var(--CouleurBC_Deal);
+}
+.box:hover {
+	text-decoration: underline 0.8px;
+}
+.box span {
+	font-size: 1em;
+	font-size: 0.85em;
+}

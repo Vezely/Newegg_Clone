@@ -1,0 +1,33 @@
+.layout[data-theme='Lumière'] {
+	--CouleurFond: #ffffff;
+	--CouleurBC_Deal: #ecf1fe;
+	--CouleurBC_Menu: #ecf1fe;
+	--CouleurTexte: #333333;
+	--CouleurSurvolCategorie: #868686;
+	--CouleurAccent: #1946b8;
+	--CouleurFooter: #002788;
+	--CouleurH: #002a5b;
+	--CouleurBouton: #ff0000;
+	--CouleurSurvol: #f7f7f7;
+	--CouleurSurvolTransparant: #ffffffc6;
+	--CouleurNB: rgb(63, 63, 63);
+	--fleche: #e7e7e7;
+	--CouleurLien: #4f8afe;
+}
+
+.layout[data-theme='Sombre'] {
+	--CouleurFond: #1a1a1a;
+	--CouleurBC_Deal: #262626;
+	--CouleurBC_Menu: #0e0e0e;
+	--CouleurSurvolCategorie: #888888;
+	--CouleurTexte: #e0e0e0;
+	--CouleurH: #e0e0e0;
+	--CouleurFooter: #131313;
+	--CouleurAccent: #007bff;
+	--CouleurBouton: #ff453a;
+	--CouleurSurvol: #2d2d2d;
+	--CouleurSurvolTransparant: #2d2d2d94;
+	--CouleurNB: rgb(236, 236, 236);
+	--fleche: #2d2d2d;
+	--CouleurLien: #f3f3f3;
+}

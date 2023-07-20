@@ -1,0 +1,135 @@
+.box2Container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 15px;
+	padding: 20px;
+}
+.box2Container .box {
+	min-height: 400px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+	justify-content: space-between;
+	border-radius: 12px;
+	background-color: var(--CouleurFond);
+	/* gap: 30px; */
+	max-width: calc(100% / 4 - 15px);
+}
+.premierImg {
+	border-radius: 12px;
+	width: 100%;
+	background-color: var(--CouleurSurvol);
+}
+.premierImg:hover {
+	background-color: var(--CouleurBC_Deal);
+}
+.box2Container .box a img {
+	/* margin-left: 50px;
+	margin-top: 25px; */
+	transform: scale(0.9);
+	border-radius: 12px;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s;
+}
+.box2Container .btn_voir_plus {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.box2Container .btn_voir_plus h4 {
+	margin: 0;
+	padding: 8px 12px;
+}
+.box2Container .btn_voir_plus a {
+	text-decoration: none;
+	color: var(--CouleurFond);
+	background-color: var(--CouleurAccent);
+	transition: all 0.2s ease-in-out;
+	border-radius: 1rem;
+}
+.offre span:nth-child(1) {
+	background-color: var(--CouleurBouton);
+	font-size: 0.8em;
+	border-radius: 10px 0;
+	padding: 3px 5px;
+	color: white;
+	transform: skewX(-7deg);
+}
+.offre span:nth-child(2) {
+	background-color: #feaa34;
+	font-size: 0.8em;
+	border-radius: 10px 0;
+	transform: skewX(-7deg);
+	padding: 3px 5px;
+	color: white;
+}
+.box2Container .btn_voir_plus a:hover {
+	transform: scale(1.05);
+	transition: all 0.2s ease-in-out;
+}
+.descrip a {
+	text-decoration: none;
+	color: var(--CouleurNB);
+	text-overflow: ellipsis;
+}
+.etoiles {
+	margin-bottom: 5px;
+}
+.etoiles span:nth-child(1) {
+	color: #feaa34;
+}
+.etoiles span:nth-child(2) {
+	font-size: 0.8em;
+}
+.description {
+	padding: 15px;
+}
+.description .prix div {
+	font-size: 0.8em;
+}
+.description .prix .lineThrough {
+	text-decoration: line-through;
+}
+.description .prix h4 {
+	font-size: 1.2rem;
+	margin: 10px 0;
+	display: flex;
+	align-items: flex-start;
+}
+.description .prix h4 span {
+	font-size: 0.6em;
+}
+.offre {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 5px;
+}
+.pleinFeu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	padding: 0 20px;
+}
+.h3 {
+	font-size: 1.8rem;
+	font-weight: 900;
+	color: var(--CouleurH);
+}
+.pleinFeu a {
+	text-decoration: none;
+	color: var(--CouleurNB);
+}
+.pleinFeu a:hover {
+	text-decoration: underline;
+}
+.pleinFeu a svg {
+	fill: var(--CouleurNB);
+	margin-left: 3px;
+}
+.description .prix h4 span {
+	font-size: 0.6em;
+}

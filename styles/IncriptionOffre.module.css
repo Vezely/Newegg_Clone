@@ -1,0 +1,92 @@
+.container {
+	display: flex;
+	padding: 30px 15px;
+	background-color: var(--CouleurSurvol);
+}
+.container .box {
+	padding: 15px;
+	background-color: var(--CouleurBC_Deal);
+	border-radius: 1rem;
+	width: 60%;
+}
+.container .box h3 {
+	font-size: 1.3rem;
+	color: var(--CouleurH);
+	font-weight: 750;
+	font-style: italic;
+	text-transform: uppercase;
+}
+.box .box_small {
+	width: 80%;
+}
+.box_small > div {
+	margin: 20px 0;
+}
+.box .box_small label {
+	position: relative;
+	width: 100%;
+}
+.box .box_small label .svg1 {
+	position: absolute;
+	top: 20%;
+	left: 10px;
+	width: 25px;
+}
+.box .box_small label .svg2 {
+	position: absolute;
+	top: 20%;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	fill: var(--CouleurAccent);
+	display: none;
+}
+.box .box_small form {
+	display: flex;
+	margin-bottom: 20px;
+}
+.box .box_small form input[type='email'] {
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	padding: 10px 45px;
+	width: 100%;
+	border: 1px solid;
+	background-color: var(--CouleurFond);
+	color: var(--CouleurNB);
+	outline: none;
+}
+.box .box_small form input[type='email']:focus {
+	border: solid 2px var(--CouleurAccent);
+}
+.box .box_small form input[type='email']:focus ~ .svg2,
+.box .box_small form input[type='email']:active ~ .svg2 {
+	display: block;
+
+	border-radius: 50%;
+}
+.box .box_small form input[type='submit'] {
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: var(--CouleurAccent);
+	text-transform: uppercase;
+	font-size: 0.85em;
+	border: none;
+	cursor: pointer;
+	padding: 0 6px;
+	transform: scaleX(1.1);
+	color: var(--CouleurSurvol);
+}
+.box .box_small form input[type='submit']:hover {
+	transform: scale(1.1);
+}
+.box_small a {
+	text-decoration: none;
+	color: var(--CouleurAccent);
+}
+.box_small a:hover {
+	text-decoration: underline;
+}
+.box_small a svg {
+	fill: var(--CouleurAccent);
+	margin-left: 3px;
+}
